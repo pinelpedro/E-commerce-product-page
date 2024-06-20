@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 
 import './Modal.css'
-import ProdModules from '../../modules/main.jsx'
 
 const Modal = ({ isOpen, onClose , posx , posy }) => {
   console.log(posx,posy)
@@ -53,7 +52,7 @@ const Modal = ({ isOpen, onClose , posx , posy }) => {
         <div className="hd">
           <h3>Cart</h3>
         </div>
-        {<ProdModules/> ? <ProdModules/>  : <p>your cart is empty.</p> }
+         <p>your cart is empty.</p> 
         
       </div>
     </div>

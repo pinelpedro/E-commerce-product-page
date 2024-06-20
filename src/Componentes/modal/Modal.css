@@ -1,0 +1,24 @@
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.modal {
+    background: white;
+    border-radius: 8px;
+   width: 300px;
+   border: black solid 2px;
+}
+
+.hd{
+    width: 100%;
+    padding: 10px;
+     border-bottom: solid 1px black;
+ }
+ .hd h3{
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+}
